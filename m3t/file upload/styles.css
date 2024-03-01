@@ -1,0 +1,25 @@
+* {
+    margin:0;
+    padding:0;
+    min-width: 0;
+}
+body {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8.75rem;
+    flex-wrap: wrap;
+}
+.image {
+    max-height: 16rem;
+    padding: 2rem;
+    border: 1px solid rosybrown;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+}
