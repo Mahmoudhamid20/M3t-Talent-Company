@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if (count($msgs) == 0) {
-        require_once("dbconnect.php"); // Make sure this file exists and contains your database connection logic
+        require_once("dbconnect.php");
 
         if ($db_handler) {
             try {
